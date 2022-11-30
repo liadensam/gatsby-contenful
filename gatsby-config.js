@@ -8,11 +8,16 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
-const dotenv = require("dotenv");
+
+/**
+ * const dotenv = require("dotenv");
 
 if (process.env.NODE_ENV !== "production") {
   dotenv.config()
 }
+ */
+
+
 
 module.exports = {
   siteMetadata: {
@@ -31,9 +36,9 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        spaceId: `or9y9df7zffb`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        accessToken: `0vnvHK0_LcoRi6IvP1h0-PBXfj65oECAs7jw2e6YlYk`,
       },
     },
     `gatsby-plugin-image`,
