@@ -15,7 +15,7 @@ const Page = ({ data }) => {
         }}
       />
       <Link style={{ marginRight: 20}} to="/">Go to Coffee time</Link>
-      <Link to="/about">Go to About Page</Link>
+      <Link to="/smile">Go to Smile Page</Link>
     </main>
   )
 }
