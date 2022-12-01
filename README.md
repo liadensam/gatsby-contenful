@@ -1,3 +1,24 @@
+# Gatsby and Contenful 🟣
+
+I created simple mini site just to show that I can connect to the headless CMS and display the data.
+
+As to create this project I needed:
+
+    Contentful
+        You’ll need a Contentful account
+        You’ll need the space id
+        You’ll need the access token
+        You’ll need some content in Contentful to query (i’ll show you how)
+
+    Gatsby
+        You’ll need a basic Gatsby site.
+
+
+
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -97,4 +118,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-# gatsby-contenful
+
