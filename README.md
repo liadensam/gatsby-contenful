@@ -146,6 +146,7 @@ To use collection routes, create a new file in `/src/pages` and call it `{conten
 
 Then I added the single page to this file and with the link to the other page as well.
 
+<br>
 
 ### Conclusion
 
