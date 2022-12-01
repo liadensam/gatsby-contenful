@@ -4,6 +4,17 @@ I created simple mini site just to show that I can connect to the headless CMS a
 
 As to create this project I needed:
 
+- Contenful
+  - You’ll need a Contentful account
+  - You’ll need the space id
+  - You’ll need the access token
+  - You’ll need some content in Contentful to query (i’ll show you how)
+
+- Gatsby
+  - You’ll need a basic Gatsby sit
+
+  
+
     Contentful
         You’ll need a Contentful account
         You’ll need the space id
