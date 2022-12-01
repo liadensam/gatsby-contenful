@@ -112,7 +112,7 @@ Both of these resources cover how to install and configure the plugin.
 
 ### API keys
 
-As mentioned in the Contentful plugin docs the two variables you’ll need are the spaceId and the accessToken, both of these can be found in Contentful by navigating to **Settings > API Keys** .
+As mentioned in the Contentful plugin docs the two variables you’ll need are the spaceId and the accessToken, both of these can be found in Contentful by navigating to **`Settings > API Keys`** .
 
 
 
