@@ -157,12 +157,6 @@ Clone the repository:
 git clone https://github.com/liadensam/gatsby-contenful.git
 ```
 
-<br>
-And then install all dependencies  with:
-
-```sh
-npm install
-```
 
 <br>
 
@@ -171,6 +165,13 @@ Go to the folder
 
 ```sh
 cd gatsby-contenful
+```
+
+<br>
+And then install all dependencies  with:
+
+```sh
+npm install
 ```
 
 <br>
