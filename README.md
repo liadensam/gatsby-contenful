@@ -118,7 +118,7 @@ As mentioned in the Contentful plugin docs the two variables you’ll need are t
 Install `dotenv` and use [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/). In my project I used them, but as for you to see, if you would like to try to run it on your computer, I kept them unhidden. But definitely it is a good practice to keep them not visible.
 
 
-Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://localhost:8000/___graphql). This time you will use `allContentfulPage` query.
+Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://localhost:8000/___graphql). This time you will use `allContentfulPage` query to see al the posts and then `contenfulPage` to see one post.
 
 <br>
 <br>
@@ -129,3 +129,28 @@ Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://
 
 <br>
 <br>
+
+
+### Pages
+
+To create Gatsby pages from the page data sourced from Contentful you’ll need to understand two concepts
+
+<br>
+
+- [Collection Routes ~ Gatsby docs](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/#collection-routes)
+- [Querying Data in Pages with GraphQL](https://www.gatsbyjs.com/docs/how-to/querying-data/page-query/)
+
+<br>
+
+To use collection routes, create a new file in `/src/pages` and call it `{contentfulPage.url}.js`
+
+Then I added the single page to this file and with the link to the other page as well.
+
+
+### Conclusion
+
+I learnt a lot while working on this project. Even if it is super simple, you need to do many steps to get to this point and if you are working with a new techstack, I think it is a great success to connect everything, have it running and deployed 🤞
+
+
+
+
