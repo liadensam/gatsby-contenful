@@ -115,7 +115,7 @@ Both of these resources cover how to install and configure the plugin.
 
 As mentioned in the Contentful plugin docs the two variables you’ll need are the `spaceId` and the `accessToken`, both of these can be found in Contentful by navigating to **`Settings > API Keys.`**
 
-Install `dotenv` and use [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/). In my project I used them, but as for you to see, if you would like to try to run it on your computer, I kept them unhidden. But definitely it is a good practice to keep them not visible.
+Install `dotenv` and use [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/). In my project I used them, but as for you to see, if you would like to try to run it on your computer, I kept them unhidden. But definitely it is a good practice to keep them not visible. And if you would like to connect it to your Contentful, just make sure, that you use the same fields for the content or change them according to your needs.
 
 
 Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://localhost:8000/___graphql). This time you will use `allContentfulPage` query to see al the posts and then `contenfulPage` to see one post.
