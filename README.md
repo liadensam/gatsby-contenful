@@ -2,7 +2,6 @@
 
 I created simple mini site just to show that I can connect to the headless CMS and display the data.
 
-<br>
 
 #### [`Live Site`](https://gatsby-contenful.vercel.app/)
 
