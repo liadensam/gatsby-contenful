@@ -147,9 +147,38 @@ Then I added the single page to this file and with the link to the other page as
 
 <br>
 
+### When coning the repo
+
+
+Clone the repository:
+
+```sh
+git clone https://github.com/liadensam/gatsby-contenful.git
+```
+
+<br>
+And then install all dependencies  with:
+
+```sh
+npm install
+```
+
+<br>
+And then run it by using:
+
+
+```sh
+gatsby develop
+```
+
+
+<br>
+
 ### Conclusion
 
 I learnt a lot while working on this project. Even if it is super simple, you need to do many steps to get to this point and if you are working with a new techstack, I think it is a great success to connect everything, have it running and deployed 🤞
+
+
 
 
 
