@@ -94,10 +94,25 @@ Then you need to create some content in order to be able to see any data in Grap
 Then I created my Gatsby basic site. You can [take a look](https://www.gatsbyjs.com/docs/tutorial/part-0/) at their official documentation about how to set up the environment.
 
 
-After all the setup, see if the site works. Then go to the GraphiQL Explorer on this url ```shell
-    http://localhost:8000/___graphql
-    ```
-thenddndk
+After all the setup, see if the site works. Then go to the GraphiQL Explorer on this url: [http://localhost:8000/___graphql](http://localhost:8000/___graphql).
+
+
+You can use the following `allSitePage` query just to confirm everything is working correctly.
+
+
+### gatsby-source-contentful
+
+- [Sourcing from Contentful ~ Gatsby docs](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-contentful/)
+
+- [gatsby-source-contenful ~ GitHub repo](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-contentful)
+
+
+Both of these resources cover how to install and configure the plugin.
+
+
+### API keys
+
+As mentioned in the Contentful plugin docs the two variables you’ll need are the spaceId and the accessToken, both of these can be found in Contentful by navigating to **Settings > API Keys** .
 
 
 
