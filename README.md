@@ -128,7 +128,6 @@ Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://
 
 
 <br>
-<br>
 
 
 ### Pages
