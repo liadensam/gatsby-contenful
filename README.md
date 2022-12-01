@@ -165,6 +165,15 @@ npm install
 ```
 
 <br>
+
+Go to the folder
+
+
+```sh
+cd gatsby-contenful
+```
+
+<br>
 And then run it by using:
 
 
