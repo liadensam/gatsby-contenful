@@ -86,12 +86,11 @@ Then you need to create some content in order to be able to see any data in Grap
 
 
 <br>
-<br>
 
 
 ## Gatsby setup
 
-Then I created my Gatsby basic site. You can [take a look](https://www.gatsbyjs.com/docs/tutorial/part-0/) at their official documentation about how to set up the environment.
+Then you create Gatsby basic site. You can [take a look](https://www.gatsbyjs.com/docs/tutorial/part-0/) at their official documentation about how to set up the environment.
 
 
 After all the setup, see if the site works. Then go to the GraphiQL Explorer on this url: [http://localhost:8000/___graphql](http://localhost:8000/___graphql).
@@ -99,6 +98,7 @@ After all the setup, see if the site works. Then go to the GraphiQL Explorer on 
 
 You can use the following `allSitePage` query just to confirm everything is working correctly.
 
+<br>
 
 ### gatsby-source-contentful
 
@@ -109,32 +109,23 @@ You can use the following `allSitePage` query just to confirm everything is work
 
 Both of these resources cover how to install and configure the plugin.
 
+<br>
 
 ### API keys
 
-As mentioned in the Contentful plugin docs the two variables you’ll need are the spaceId and the accessToken, both of these can be found in Contentful by navigating to **`Settings > API Keys`** .
+As mentioned in the Contentful plugin docs the two variables you’ll need are the `spaceId` and the `accessToken`, both of these can be found in Contentful by navigating to **`Settings > API Keys.`**
+
+Install `dotenv` and use [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/). In my project I used them, but as for you to see, if you would like to try to run it on your computer, I kept them unhidden. But definitely it is a good practice to keep them not visible.
 
 
+Now, navigate again to GraphiQL using [http://localhost:8000/___graphql](http://localhost:8000/___graphql). This time you will use `allContentfulPage` query.
+
+<br>
+<br>
 
 
+<img src="/assets/grapiql.png">
 
 
-
-
-
-
-
-
-
-
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
-
-
+<br>
+<br>
