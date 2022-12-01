@@ -26,7 +26,7 @@ Once you have Contentful account you will create `space`. Before creating a cont
 
 <br>
 
-![content-fields](/assets/content-fields.png)
+
 <img src="/assets/content-fields.png">
 
 
